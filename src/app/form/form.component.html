@@ -1,0 +1,31 @@
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()" >
+  <label>
+    Name:
+    <input type="text" formControlName="Name" [(ngModel)]='data.name'>
+  </label><br>
+   <label>
+    Email:
+    <input type="text" formControlName="Email" [(ngModel)]='data.email'>
+  </label><br>
+  <label>
+  	Feedback<br>
+  	<label>
+    <input type="radio" formControlName="Feedback" [(ngModel)]='data.feedback' value="Great">
+    Great
+  </label><br/>
+  <label>
+    <input type="radio" formControlName="Feedback" [(ngModel)]='data.feedback' value="Okay">
+    Okay
+  </label><br/>
+  <label>
+    <input type="radio" formControlName="Feedback" [(ngModel)]='data.feedback' value="Not Good">
+    Not Good
+  </label><br/>
+  </label>
+  <br><label>
+    Comments:
+    <input type="text" formControlName="Comments"[(ngModel)]='data.comment' >
+  </label><br>
+<button type="submit" [disabled]="!profileForm.valid">Submit</button>
+</form>
+{{hello}}
