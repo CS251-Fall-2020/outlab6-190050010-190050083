@@ -1,0 +1,18 @@
+/* define primary colors */
+$primary_1: #d66b65;
+$primary_2: #ac3131;
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+/* use the variables */
+mat-toolbar{
+  background-color: $primary_1; // here you can put an inline comment
+  
+}
+a{
+  text-decoration: none;
+    color:#f5dede;
+    text-align: left;
+    padding: 40px;
+    font-style: unset;
+}

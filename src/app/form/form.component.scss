@@ -1,3 +1,48 @@
+$primary_2: blue;
 .mat-radio-button ~ .mat-radio-button {
   margin-left: 16px;
+}
+label{
+  color: black;
+  padding: 5px;
+  text-align: left;
+  margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+
+}
+a{
+  color:black;
+  font-size: large;
+  text-align: justify;
+  padding: 5px;
+  margin-left: 600px;
+  font-size: 25px;
+  font-family: monospace;
+  font-weight: bolder;
+}
+h3{
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+  text-align: left;
+  margin-left: 600px;
+  margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form{
+  width: 500px;
+  margin-top: 20px;
+  text-align: justify;
+  margin-left: 600px;
+  font-size: 25px;
+}
+button{
+  font-size: 20px;
+}
+input{
+  color: black;
+  background-color: rgb(252, 241, 237);
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;;
 }

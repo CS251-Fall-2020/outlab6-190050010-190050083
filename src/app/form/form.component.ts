@@ -23,13 +23,12 @@ export class FormComponent implements OnInit {
   this.dataService.getrequest().subscribe(data => this.data = data)
   }
   postrequest(): void{
-  this.dataService.postrequest(this.data).subscribe(data => this.hello = 'Success', error => this.hello = 'Fail')
+  this.dataService.postrequest(this.data).subscribe(data => this.hello = 'Success!', error => this.hello = ' Request Failed!')
   }
   ngOnInit() {
   this.getrequest();
   }
   onSubmit(){
   this.postrequest();
-
   }
 }
